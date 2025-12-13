@@ -15,27 +15,28 @@
 <body>
 
 <div class="container">
-    <img src="title.png" class="title-image">
-    <h1>3 эпизод в 2026</h1>
+  <img src="{{ url_for('static', filename='images/title.png') }}" class="title-image">
+  <h1>3 эпизод в 2026</h1>
 </div>
 
 <div class="basicimages">
-    <img src="erdem.png">
+  <img src="{{ url_for('static', filename='images/erdem.png') }}">
 </div>
 
 <div class="basicimages">
-    <img src="newimage2.png">
+  <img src="{{ url_for('static', filename='images/newimage2.png') }}">
 </div>
 
 <div class="basicimages">
-    <img src="image3.jpg">
+  <img src="{{ url_for('static', filename='images/image3.jpg') }}">
 </div>
 
 <div class="basicimages">
-    <a href="https://www.youtube.com/watch?v=Ab31Sm6wZ-k&t=15s" target="_blank">
-        <img src="image4.png">
-    </a>
+  <a href="https://www.youtube.com/watch?v=Ab31Sm6wZ-k&t=15s" target="_blank">
+    <img src="{{ url_for('static', filename='images/image4.png') }}">
+  </a>
 </div>
+
 
 
 
